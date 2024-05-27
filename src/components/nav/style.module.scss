@@ -1,0 +1,41 @@
+.nav {
+  border: 1px solid #cfcfe4;
+  border-radius: 18px;
+  // width: 264px;
+  height: 234px;
+}
+
+.navItems {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navItem {
+  list-style: none;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navItem a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 18px;
+  color: #39414b;
+}
+
+.navItem a:active {
+  color: #39414b;
+}
+
+.active {
+  background-color: #5fbf77;
+}
+
+.active a {
+  color: #fff;
+}
